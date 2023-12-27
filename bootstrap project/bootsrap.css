@@ -1,0 +1,34 @@
+body{
+    margin :0;
+    padding: 0;
+    width: 100%;
+    font-family:sans-serif;
+}
+.navbar{
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.6);
+    font-weight: 600;
+    position: sticky !important;
+    top:0px;
+    z-index: 3;
+}
+.nav-item{
+    border:2px solid transparent ;
+    
+}
+.nav-item:hover{
+    border-bottom: 2px solid black;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about img{
+    width: 40rem;
+    height: 30rem;
+    border-radius: 40px;
+}
+#services img{
+    height: 200px;
+}
